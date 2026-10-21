@@ -1,6 +1,6 @@
 # SOTO Granite & Cabinets
 
-Responsive, bilingual, multi-page static website prepared for GitHub Pages.
+Responsive, bilingual, multi-page static website prepared for GitHub Pages. The portfolio includes 38 owner-provided project photos grouped into browsable project cards, with a lightbox and category filters.
 
 ## Preview locally
 
@@ -40,14 +40,15 @@ The script overwrites the SVG QR asset with the new destination. Keep the QR bla
 - Cell phone: +1 (805) 280-8756
 - Service areas shown on company sign: Bakersfield and Paso Robles, California
 - TikTok: [@sotogranitecabinets](https://www.tiktok.com/@sotogranitecabinets)
+- Facebook: [SOTO Facebook link](https://www.facebook.com/share/19r1S9o8NU/)
 
-Facebook and Instagram profiles could not be verified from public search, so they are not linked. WhatsApp is not assumed. No physical address, email, license, warranties, reviews, prices, inventory or completed SOTO projects have been invented.
+The Facebook link above was supplied by the owner and is linked directly. No Instagram link was confirmed. WhatsApp is not assumed. No physical address, email, license, warranties, reviews, prices, inventory, dates or project locations have been invented.
 
 ## Before launch
 
 - The inquiry form opens the visitor's email app with the message prepared. It does not submit to a server or save information. Add a verified company email and a secure form service or backend before describing the form as delivered to SOTO.
 - Confirm which services and materials the company currently offers, the areas served, and the preferred contact email.
-- The inspiration gallery uses remote Unsplash editorial imagery and labels it as inspiration, not company project photography. Replace these with approved company photos when available.
+- The portfolio photos in `assets/projects/` were supplied by the owner. The design rendering is labeled as a concept, and work-in-progress photos are labeled accordingly. Only the outdoor countertop photos are marked before/after because they show the same work area at different stages.
 - The CSS loads DM Sans and Playfair Display from Google Fonts; system fallbacks are included.
 - Update privacy language if analytics, uploads, cookies, CRM or third-party form processing are added.
 - Add the public domain and a sitemap after the deployment URL is known.
