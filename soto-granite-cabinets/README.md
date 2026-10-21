@@ -1,6 +1,6 @@
 # SOTO Granite & Cabinets
 
-Responsive, bilingual, multi-page static website prepared for GitHub Pages. The portfolio includes 38 owner-provided project photos grouped into browsable project cards, with a lightbox and category filters.
+Responsive, bilingual, multi-page static website for SOTO Granite & Cabinets. It describes kitchen and bathroom remodeling, cabinets and countertops, flooring, drywall, painting, electrical work and general home repairs. The portfolio retains all 38 owner-provided photos and groups them into browsable project cards, with a lightbox and category filters.
 
 ## Preview locally
 
@@ -12,13 +12,11 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Publish with GitHub Pages
+## Update the connected Vercel site
 
-1. Create a GitHub repository and add these project files.
-2. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-3. GitHub will show the public URL after deployment. Add that URL to the repository description and replace the QR destination as described below if you want flyer scans to open the website.
+The Vercel project is connected to the GitHub `main` branch. Replace the website files in the repository with the contents of this folder, keep the `assets/` directory structure, and commit the changes to `main`. Vercel will create a deployment automatically. Check **Deployments** in Vercel and wait for the new deployment to show **Ready**.
 
-No build step or package installation is required. All page links and assets use relative paths, so the site works from a GitHub Pages project URL.
+No build step or package installation is required. All page links and assets use relative paths.
 
 ## QR code for flyers
 
@@ -48,7 +46,7 @@ The Facebook link above was supplied by the owner and is linked directly. No Ins
 
 - The inquiry form opens the visitor's email app with the message prepared. It does not submit to a server or save information. Add a verified company email and a secure form service or backend before describing the form as delivered to SOTO.
 - Confirm which services and materials the company currently offers, the areas served, and the preferred contact email.
-- The portfolio photos in `assets/projects/` were supplied by the owner. The design rendering is labeled as a concept, and work-in-progress photos are labeled accordingly. Only the outdoor countertop photos are marked before/after because they show the same work area at different stages.
+- The portfolio photos in `assets/projects/` were supplied by the owner. They show kitchen and bathroom updates, repairs, cabinets, countertops and installation details. The design rendering is labeled as a concept, and work-in-progress photos are labeled accordingly. Only the outdoor countertop photos are marked before/after because they show the same work area at different stages.
 - The CSS loads DM Sans and Playfair Display from Google Fonts; system fallbacks are included.
 - Update privacy language if analytics, uploads, cookies, CRM or third-party form processing are added.
 - Add the public domain and a sitemap after the deployment URL is known.
