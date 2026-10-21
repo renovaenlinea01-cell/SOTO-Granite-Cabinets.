@@ -21,3 +21,5 @@
 .electrical-photo{background-image:linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.03)),url('assets/electrical-work-illustrative.png');position:relative}.photo-illustration-label{position:absolute;left:14px;bottom:14px;padding:6px 9px;background:rgba(17,17,16,.82);color:#fff;font:600 9px var(--sans);letter-spacing:.04em;text-transform:uppercase}
 
 .repair-photo{background-image:linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.03)),url('assets/home-repair-illustrative.png');position:relative}
+
+.service-card-five{background-image:linear-gradient(0deg,rgba(0,0,0,.68),rgba(0,0,0,.12)),url('assets/electrical-work-illustrative.png')}.service-card-six{background-image:linear-gradient(0deg,rgba(0,0,0,.68),rgba(0,0,0,.12)),url('assets/home-repair-illustrative.png')}
