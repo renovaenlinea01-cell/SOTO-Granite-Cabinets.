@@ -1,6 +1,6 @@
 # SOTO Granite & Cabinets
 
-Responsive, bilingual, multi-page static website for SOTO Granite & Cabinets. It describes kitchen and bathroom remodeling, cabinets and countertops, flooring, drywall, painting, electrical work and general home repairs. The portfolio retains all 38 owner-provided photos and groups them into browsable project cards, with a lightbox and category filters.
+Responsive, bilingual, multi-page static website for SOTO Granite & Cabinets. It describes kitchen and bathroom remodeling, cabinets and countertops, wood-look tile and laminate flooring, drywall, painting, electrical work and general home repairs. The portfolio retains all 41 owner-provided project photos and groups them into browsable project cards, with a lightbox and category filters. A separate generated electrical photo is labeled as illustrative and is not included as a SOTO project.
 
 ## Preview locally
 
@@ -45,8 +45,8 @@ The Facebook link above was supplied by the owner and is linked directly. No Ins
 ## Before launch
 
 - The inquiry form opens the visitor's email app with the message prepared. It does not submit to a server or save information. Add a verified company email and a secure form service or backend before describing the form as delivered to SOTO.
-- Confirm which services and materials the company currently offers, the areas served, and the preferred contact email.
-- The portfolio photos in `assets/projects/` were supplied by the owner. They show kitchen and bathroom updates, repairs, cabinets, countertops and installation details. The design rendering is labeled as a concept, and work-in-progress photos are labeled accordingly. Only the outdoor countertop photos are marked before/after because they show the same work area at different stages.
+- Confirm flooring materials, the electrical work scope, service area availability, and the preferred contact email before quoting.
+- The portfolio photos in `assets/projects/` were supplied by the owner. They show kitchen and bathroom updates, repairs, cabinets, countertops, wood-look tile installation and drywall preparation. The design rendering is labeled as a concept, work-in-progress photos are labeled accordingly, and the generated electrical image is marked as illustrative. Only the outdoor countertop photos are marked before/after because they show the same work area at different stages.
 - The CSS loads DM Sans and Playfair Display from Google Fonts; system fallbacks are included.
 - Update privacy language if analytics, uploads, cookies, CRM or third-party form processing are added.
 - Add the public domain and a sitemap after the deployment URL is known.
@@ -56,5 +56,5 @@ The Facebook link above was supplied by the owner and is linked directly. No Ins
 - `index.html`, `services.html`, `projects.html`, `about.html`, `contact.html`
 - `bakersfield.html`, `paso-robles.html`, `privacy.html`
 - `styles.css`, `script.js`
-- `assets/favicon.svg`, `assets/soto-tiktok-qr.svg`
+- `assets/favicon.svg`, `assets/soto-tiktok-qr.svg`, `assets/electrical-work-illustrative.png`
 - `work/make_qr.py` QR generator
